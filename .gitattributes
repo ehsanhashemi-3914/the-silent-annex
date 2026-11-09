@@ -1,0 +1,2 @@
+# Keep LF line endings everywhere, so the files look the same on Windows, macOS and Linux.
+* text=auto eol=lf

@@ -1,0 +1,23 @@
+/** Every objective the player can hold, in the order they normally appear. */
+export const OBJECTIVES: Record<string, string> = {
+  arrive: 'Get inside. The carrier is strongest at the main building.',
+  reception: 'Find a way through the restricted door in reception.',
+  records: 'The records room should hold a staff access card. Find the door code.',
+  card: 'Use the security card on the restricted door in reception.',
+  power: 'The research wing is on emergency power. Find the electrical control room.',
+  fuse: 'Board 2 is missing a 30A fuse. Search the wing for a replacement.',
+  energise: 'Fit the fuse and re-energise Board 2.',
+  observation: 'Power is back. Get into the observation room.',
+  lab: 'Open the restricted lab from the observation room.',
+  lift: 'Find the maintenance key and take the goods lift down.',
+  archive: 'The signal is coming from below. Work out the archive call number.',
+  reel: 'Find the original reel of Test 44 in the archive.',
+  security: 'Get into security control and play the reel.',
+  systems: 'The Annex is sealed. Restart its systems from security control.',
+  ignition: "The generator needs the director's key. Get to the safe in the administration office.",
+  return: 'Take the ignition key back down to security control.',
+  systems2: 'Start the generator and bring the Annex systems online.',
+  annex: 'Go into the Annex.',
+  source: 'Find the source of the signal.',
+  leave: 'Get out.',
+};
